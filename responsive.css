@@ -140,3 +140,31 @@ body {
         padding: 1rem; /* Reduce header padding */
     }
 }
+/* Responsive styles for mobile view */
+@media (max-width: 768px) {
+    .button {
+      font-size: 1.2rem; /* Increase font size for mobile */
+      padding: 15px 30px; /* Increase padding for mobile */
+      width: 100%; /* Make the button full width */
+      box-sizing: border-box; /* Ensure padding is included in total width */
+    }
+  }
+
+  
+@media (max-width: 768px) {
+    .contact form {
+      padding: 2rem; /* Add padding to the form for mobile */
+    }
+    
+    .contact form .input-box input,
+    .contact form textarea {
+      font-size: 1.6rem; /* Ensure input fields are larger */
+      padding: 1rem; /* Increase padding in input fields */
+    }
+    
+    .contact form .btn {
+      font-size: 1.5rem; /* Increase button font size */
+      padding: 12px 24px; /* Increase button padding */
+      width: 100%; /* Make the button full width */
+    }
+    }
